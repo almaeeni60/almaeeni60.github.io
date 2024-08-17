@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Your Name - Law Firm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #003366;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1, h2, h3 {
+            color: #003366;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-info div {
+            flex-basis: 30%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #003366;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name - Attorney at Law</h1>
+    <p>Expert legal services tailored to your needs</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#services">Services</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am [Your Name], an experienced attorney with a dedication to delivering exceptional legal services. I specialize in [Your Specialization], with a commitment to achieving the best outcomes for my clients.</p>
+</section>
+
+<section id="services">
+    <h2>Services</h2>
+    <ul>
+        <li>Criminal Defense</li>
+        <li>Corporate Law</li>
+        <li>Family Law</li>
+        <li>Civil Litigation</li>
+        <!-- Add more services if necessary -->
+    </ul>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <p>I have [X] years of experience practicing law, with notable cases including [mention notable cases or achievements]. Most recently, I was awarded Employee of the Month for my dedication and success in delivering excellent legal counsel.</p>
+</section>
+
+<section id="projects">
+    <h2>Notable Projects</h2>
+    <ul>
+        <li>Case A: [Brief description of case or project]</li>
+        <li>Case B: [Brief description of case or project]</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Skills & Certifications</h2>
+    <ul>
+        <li>Expertise in [Legal Area]</li>
+        <li>Certified in [Certification]</li>
+        <li>Strong negotiation skills</li>
+        <!-- Add more as needed -->
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+        <div>
+            <h3>Office Location</h3>
+            <p>123 Law Street, Legal City, Country</p>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        </div>
+        <div>
+            <h3>Phone</h3>
+            <p>+123-456-7890</p>
+        </div>
+    </div>
+    <h3>Get in Touch</h3>
+    <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Name - All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
